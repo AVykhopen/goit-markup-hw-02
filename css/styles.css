@@ -6,12 +6,13 @@
     --primery-background-color: #F5F4FA;
     --secondary-background-color:#2F303A;
     --footer-text-color: rgba(255, 255, 255, 0.6);
+    --primary-button-color: #188CE8;
+
  }
  /* Стилі Portfolio */
  body {
     color: var(--primery-text-color);
-    background-color: var(--secondary-text-color);
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
  }
 ul {
     list-style: none;
@@ -66,20 +67,20 @@ ul {
 }
 .primary-button {
     color: var(--secondary-text-color);
-    background-color: #188CE8;
+    background-color: var(--primary-button-color);
     cursor: pointer;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     font-size: 16px;
     line-height: 1.87;
     font-weight: 700;
     border-radius: 4px;
+    border: none;
 }
 /* main */
 .section-title {
     color: var(--primery-text-color);
     font-size: 36px;
     line-height: 1.17;
-    font-weight: 700;
 }
 .feature-list .title {
     color: var(--primery-text-color);
@@ -91,13 +92,15 @@ ul {
     color: var(--title-text-color);
     font-size: 14px;
     line-height: 1.71;
-    font-weight: 400;
+    
 }
 .team-section {
     background-color: var(--primery-background-color);
 }
 .team-card .card-color {
     background-color: var(--secondary-text-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-card .card {
     color: var(--primery-text-color);
@@ -109,16 +112,12 @@ ul {
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.17;
-    font-weight: 400;
 }
 /* footer */
 .footer {
     background-color: var(--secondary-background-color);
-    width: 1600px;
-    height: 252px;
 }
 .logo-footer {
-    
     color: var(--accent-color);
     text-decoration: none;
     font-size: 26px;
@@ -133,6 +132,8 @@ ul {
     color: var(--secondary-text-color);
     font-style: normal;
     line-height: 1.71;
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
 .adress:hover,
 .adress:focus {
@@ -149,25 +150,54 @@ ul {
 .footer-contact {
     color: var(--footer-text-color);
     text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 /* Стилі Portfolio */
 /* main */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 .button-list {
     color: var(--primery-text-color);
     font-size: 16px;
     line-height: 1.62px;
     font-weight: 500;
+    text-decoration: none;
 }
-
 .button-list .btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
     cursor: pointer;
+    border-radius: 4px;
+    border: none;
   }
 .button-list .other {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
     color: var(--primery-text-color);
     background-color: var(--primery-background-color);
     cursor: pointer;
+    border-radius: 4px;
+    border: none;
 }
   .portfolio-list .name {
       color: var(--primery-text-color);
