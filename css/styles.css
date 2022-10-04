@@ -204,7 +204,7 @@ ul {
 }
 .button-list .other:hover,
 .button-list .other:focus {
-    color: var(--secondary-text-color);
+    color: var(--accent-color);
 }
   .portfolio-list .name {
       color: var(--primery-text-color);
