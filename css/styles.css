@@ -62,7 +62,9 @@ ul {
     background-color: var(--secondary-background-color);
     font-size: 44px;
     line-height: 1.36;
-    font-weight: 900;  
+    font-weight: 900;
+    letter-spacing: 0.06em; 
+    text-transform: uppercase; 
 }
 .primary-button {
     color: var(--secondary-text-color);
