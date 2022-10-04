@@ -174,14 +174,6 @@ ul {
     font-weight: 500;
     text-decoration: none;
 }
-.button-list .btn:hover,
-.button-list .btn:focus {
-    color: var(--accent-color);
-}
-.button-list .other:hover,
-.button-list .other:focus {
-    color: var(--secondary-text-color);
-}
 .button-list .btn {
     font-weight: 500;
     font-size: 16px;
@@ -205,6 +197,14 @@ ul {
     cursor: pointer;
     border-radius: 4px;
     border: none;
+}
+.button-list .btn:hover,
+.button-list .btn:focus {
+    color: var(--accent-color);
+}
+.button-list .other:hover,
+.button-list .other:focus {
+    color: var(--secondary-text-color);
 }
   .portfolio-list .name {
       color: var(--primery-text-color);
