@@ -180,7 +180,7 @@ ul {
 }
 .button-list .other:hover,
 .button-list .other:focus {
-    color: var(--accent-color);
+    color: var(--secondary-text-color);
 }
 .button-list .btn {
     font-weight: 500;
