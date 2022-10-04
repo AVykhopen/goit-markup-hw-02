@@ -22,7 +22,6 @@ ul {
     text-decoration: none;
     font-size: 26px;
     line-height: 1.19;
-    font-weight: 700;
 }
 .logo-black {
     color: var(--primery-text-color);
@@ -115,7 +114,6 @@ ul {
     text-decoration: none;
     font-size: 26px;
     line-height: 1.19;
-    font-weight: 700;
 }
 .logo-white {
     color: var(--secondary-text-color);
