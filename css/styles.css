@@ -86,7 +86,6 @@ ul {
     color: var(--primery-text-color);
     font-size: 14px;
     line-height: 1.17;
-    font-weight: 700;
 }
 .feature-list .text {
     color: var(--title-text-color);
@@ -175,6 +174,14 @@ ul {
     font-weight: 500;
     text-decoration: none;
 }
+.button-list .btn:hover,
+.button-list .btn:focus {
+    color: var(--accent-color);
+}
+.button-list .other:hover,
+.button-list .other:focus {
+    color: var(--accent-color);
+}
 .button-list .btn {
     font-weight: 500;
     font-size: 16px;
@@ -203,11 +210,9 @@ ul {
       color: var(--primery-text-color);
       font-size: 18px;
       line-height: 2;
-      font-weight: 700;
   }
   .portfolio-list .text {
       color: var(--title-text-color);
       font-size: 16px;
       line-height: 1.87;
-      font-weight: 400;
   }
